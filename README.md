@@ -20,4 +20,4 @@ A collection of scripts to deploy high-performance proxy services on various hos
 - **Java Minecraft Servers**
 
 # There are temporary speed limitations when using singbox/Hysteria2.
-Thank you so much, @eooce!, if you’d like to help with further development, message me on Telegram: https://t.me/blckhxt
+Thank you so much, @eooce, if you’d like to help with further development, message me on Telegram: https://t.me/blckhxt
