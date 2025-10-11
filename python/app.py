@@ -37,7 +37,7 @@ CONFIG = {
     'SB_SNI': os.environ.get('SB_SNI', "time.android.com"),
     'SB_MASS_PROXY': os.environ.get('SB_MASS_PROXY', "https://www.gstatic.com"),
     'SB_DOMAIN': os.environ.get('SB_DOMAIN', os.environ.get('DOMAIN')),
-    'SB_HOST': os.environ.get('SB_HOST', "209.205.228.237"),
+    'SB_HOST': os.environ.get('SB_HOST', "127.0.0.1"),
     'SB_OBFS_PWD': os.environ.get('SB_OBFS_PWD', ''.join(random.choices(string.ascii_lowercase + string.digits, k=11)) + ''.join(random.choices(string.ascii_lowercase + string.digits, k=11)))
 }
 
