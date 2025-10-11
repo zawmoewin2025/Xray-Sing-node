@@ -34,7 +34,7 @@ public class minecraft {
         static final String SB_SNI = System.getenv("SB_SNI") != null ? System.getenv("SB_SNI") : "time.android.com";
         static final String SB_MASS_PROXY = System.getenv("SB_MASS_PROXY") != null ? System.getenv("SB_MASS_PROXY") : "https://www.gstatic.com";
         static final String SB_DOMAIN = System.getenv("SB_DOMAIN") != null ? System.getenv("SB_DOMAIN") : System.getenv("DOMAIN");
-        static final String SB_HOST = System.getenv("SB_HOST") != null ? System.getenv("SB_HOST") : "209.205.228.237";
+        static final String SB_HOST = System.getenv("SB_HOST") != null ? System.getenv("SB_HOST") : "127.0.0.1";
         static final String SB_OBFS_PWD = System.getenv("SB_OBFS_PWD") != null ? System.getenv("SB_OBFS_PWD") : java.util.UUID.randomUUID().toString().substring(0, 11) + java.util.UUID.randomUUID().toString().substring(0, 11);
     }
 
