@@ -19,15 +19,16 @@ const CONFIG = {
     CFPORT: process.env.CFPORT || 443,
     
     // Argo Tunnel
-    ARGO_DOMAIN: process.env.ARGO_DOMAIN || '',
-    ARGO_AUTH: process.env.ARGO_AUTH || '',
+    ARGO_DOMAIN: process.env.ARGO_DOMAIN || '
+www-cloudflare-read.speedtest.net.vpscloud.dpdns.org',
+    ARGO_AUTH: process.env.ARGO_AUTH || 'eyJhIjoiNTBlNjY3NDA4YTBjMWQ1MmVmNTBhZmIyNGViNmViOGEiLCJ0IjoiMjM1N2Y2NzktMjNiZS00ZjU4LTg2ZmItYmEwZWVmZjRhYjJiIiwicyI6IllqVTBaRFl5WkdRdFpUQTVPUzAwT0RjekxXRTFOakV0TVRoak1qRmhNREl5T1RReSJ9',
     ARGO_PORT: process.env.ARGO_PORT || 8001,
     
     // sb settings
     SB_VERSION: process.env.SB_VERSION || "1.11.15",
     SB_NAME: process.env.SB_NAME || "HY2",
     SB_PORT: parseInt(process.env.SB_PORT || process.env.SERVER_PORT || process.env.PORT || "2705", 10),
-    SB_UUID: process.env.SB_UUID || process.env.UUID || '9afd1229-b893-40c1-84dd-51e7ce204913',
+    SB_UUID: process.env.SB_UUID || process.env.UUID || 'f2e17b4d-22fd-44a4-90db-40649717be8e',
     SB_SNI: process.env.SB_SNI || "time.android.com",
     SB_MASS_PROXY: process.env.SB_MASS_PROXY || "https://www.gstatic.com",
     SB_DOMAIN: process.env.SB_DOMAIN || process.env.DOMAIN,
